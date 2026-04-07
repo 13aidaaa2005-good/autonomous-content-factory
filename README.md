@@ -29,19 +29,7 @@ git clone https://github.com/13aidaaa2005-good/autonomous-content-factory.git
 
 cd autonomous-content-factory
 
-2. Install dependencies
 
-pip install -r requirements.txt
-
-3. Configure environment variables
-
-Create a .env file in the root directory:
-GROQ_API_KEY=your_groq_api_key_here
-
-4. Run the project locally
+2. Run the project locally
 
 streamlit run app.py
-
-5. Open the app
-Visit http://localhost:8501 in your browser
-Paste product or article content, click Generate, and explore the generated Blog, Thread, and Email outputs
